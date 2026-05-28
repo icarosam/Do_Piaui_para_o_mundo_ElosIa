@@ -1,0 +1,74 @@
+/* ===== ESTILO GERAL ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #0f7a32, #1fa34a);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* ===== TÍTULO ===== */
+p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #114b97;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ===== CAIXA DA MENSAGEM ===== */
+.mensagem {
+  background: #ffffff;
+  color: #114b97;
+  width: 90%;
+  max-width: 700px;
+  padding: 35px;
+  border-radius: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  border: 5px solid #114b97;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.mensagem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== ÁREA DO VLIBRAS ===== */
+.libras {
+  margin-top: 25px;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+  .mensagem {
+    font-size: 22px;
+    padding: 25px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mensagem {
+    font-size: 18px;
+    padding: 20px;
+  }
+}
