@@ -14,10 +14,8 @@ Hackathon Do Piauí para o Mundo 2026 — CETI Dr Dionísio Rodrigues Nogueira
 - Hostinger — hospedagem
 
 ## Como testar
-1. Baixe o arquivo `fluxo-n8n.json`
-2. Importe no n8n (File > Import)
-3. Configure o Uazapi com seu número
-4. Mande uma mensagem para o número configurado
+1. Mande mensagem para o numero do chatbot
+que esta nesse repositorio
 
 ## Validação
 - 59 responsáveis entrevistados
