@@ -1,0 +1,29 @@
++55 89 8812-5208
+
+# Assistente IA para WhatsApp
+
+Projeto de automação inteligente para WhatsApp utilizando [n8n](https://n8n.io?utm_source=chatgpt.com), [Uazapi](https://uazapi.com.br?utm_source=chatgpt.com), [OpenAI](https://openai.com?utm_source=chatgpt.com)
+e [ElevenLabs](https://elevenlabs.io?utm_source=chatgpt.com).
+
+O sistema é capaz de receber mensagens de texto e áudio, interpretar o conteúdo com IA e responder automaticamente de forma natural. Também possui suporte a memória de conversas e respostas em voz.
+
+## Funcionalidades
+
+* Atendimento automático via WhatsApp
+* Integração com IA da OpenAI
+* Suporte a mensagens de texto e áudio
+* Conversão de áudio para texto
+* Respostas em voz com ElevenLabs
+* Memória de conversas com PostgreSQL
+* Fluxos automatizados no n8n
+* Estrutura pronta para escalabilidade
+
+## Tecnologias utilizadas
+
+* n8n
+* Uazapi
+* OpenAI API
+* ElevenLabs API
+* PostgreSQL
+* Docker / VPS Linux
+
