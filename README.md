@@ -10,7 +10,6 @@ Hackathon Do Piauí para o Mundo 2026 — CETI Dr Dionísio Rodrigues Nogueira
 - Uazapi — conexão com WhatsApp
 - n8n — automação das conversas
 - VLibras — acessibilidade em Libras
-- Google Sheets — banco de dados
 - Hostinger — hospedagem
 
 ## Como testar
